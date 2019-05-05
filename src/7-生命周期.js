@@ -1,13 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
-import Cart from './components/Cart'
+import TodeList from './TodoList.jsx'
+
 
 
 ReactDOM.render(
-  <>
-  <App></App>
-  <Cart></Cart>
-  </>,
+  <TodeList/>,
   document.getElementById('root')
 )
